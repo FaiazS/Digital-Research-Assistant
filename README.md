@@ -35,4 +35,23 @@ flowchart TD
     G --> H[Email Agent]
     H --> I[Email Sent!]
     G --> J[Display in Gradio UI]
+
+---
+
 ```
+## 🗂 Folder Structure
+
+```
+.
+├── app.py                     # Gradio interface entry point
+├── research_manager.py       # Main controller for research execution
+├── agents/
+│   ├── research_writer.py
+│   ├── web_searcher.py
+│   ├── research_planner.py
+│   ├── email_agent.py
+├── requirements.txt
+├── .env                      # Local secrets file (replaced with HF secrets for Hugging Face)
+└── README.md
+```
+---
