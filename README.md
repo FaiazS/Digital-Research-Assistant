@@ -32,6 +32,8 @@ flowchart TD
     D --> E[Search Summaries]
     E --> F[Research Writer Agent]
     F --> G[Markdown Report]
-    G --> H[Display in Gradio UI]
+    G --> H[Email Agent]
+    H --> I[Email Sent!]
+    G --> J[Display in Gradio UI]
 ```
 
