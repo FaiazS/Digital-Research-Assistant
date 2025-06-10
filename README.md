@@ -83,6 +83,48 @@ The UI will open in your browser!
 
 > _"AI's contribution in tackling and mitigating the impacts of Climate Change."_
 
+🔁 AI-Powered Research Pipeline: End-to-End Flow
+
++----------------------------+
+|        Start Query         |
+| (User gives research topic)|
++-------------+-------------+
+              |
+              v
++-------------+-------------+
+| Research Planner Agent     |
+| - Breaks query into        |
+|   3 smart sub-queries      |
++-------------+-------------+
+              |
+              v
++-------------+-------------+
+| Research Assistant Agent   |
+| - Performs web searches    |
+|   for each sub-query       |
+| - Summarizes results       |
++-------------+-------------+
+              |
+              v
++-------------+-------------+
+| Research Writer Agent      |
+| - Plans report outline     |
+| - Writes full markdown     |
+|   report (5-7 pages)       |
++-------------+-------------+
+              |
+              v
++-------------+-------------+
+| Email Agent (SendGrid)     |
+| - Formats report to HTML   |
+| - Sends final email        |
++-------------+-------------+
+              |
+              v
++-------------+-------------+
+|         🎉 DONE!            |
+| Report emailed successfully|
++----------------------------+
 ---
 
 ## 🧠 Built With
