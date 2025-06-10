@@ -53,3 +53,28 @@ flowchart TD
 └── README.md
 ```
 ---
+
+## 💡 Sample Prompt
+
+> _"AI's contribution in tackling and mitigating the impacts of Climate Change."_
+
+---
+
+## 🧠 Built With
+
+- GPT-4o Agents (`openai-agents`)
+  
+- SendGrid Email API
+  
+- Python `asyncio` + modularization
+  
+- Gradio UI for interactivity
+  
+- Hugging Face Spaces for deployment
+
+---
+
+## 📬 Author
+
+**Faiaz Ahmed**  
+[LinkedIn](https://www.linkedin.com/in/faiazahmed22/) • [Email](mailto:faiazrex8@gmail.com)
