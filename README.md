@@ -125,6 +125,7 @@ The UI will open in your browser!
 |         🎉 DONE!            |
 | Report emailed successfully|
 +----------------------------+
+
 ---
 
 ## 🧠 Built With
