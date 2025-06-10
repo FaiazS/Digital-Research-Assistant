@@ -83,21 +83,21 @@ The UI will open in your browser!
 
 > _"AI's contribution in tackling and mitigating the impacts of Climate Change."_
 
-# 🔁#AI-Powered Research Pipeline: End-to-End Flow:
+# 🔁 AI-Powered Research Pipeline: End-to-End Flow:
 
-1.User types a query in the Gradio UI 
+Step 1: User types a query in the Gradio UI.
         
-2.ResearchManager is called - begins the pipeline
+Step 2: ResearchManager is called - begins the pipeline.
         
-3.research_planner agent - breaks query into 3 search terms
+Step 3: research_planner agent - breaks query into 3 search terms.
         
-4.web_searcher agent - performs web search for each term and summarizes them
+Step 4: web_searcher agent - performs web search for each term and summarizes them.
         
-5.research_writer agent - creates structured outline + full report from the summaries
+Step 5: research_writer agent - creates structured outline + full report from the summaries.
         
-6.email_agent - formats the report in HTML and emails it
+Step 6: email_agent - formats the report in HTML and emails it.
         
-7.Final markdown report displayed in Gradio UI and emailed!
+Step 7: Final markdown report displayed in Gradio UI and emailed!
 
 ---
 
