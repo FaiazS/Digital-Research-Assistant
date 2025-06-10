@@ -54,6 +54,31 @@ flowchart TD
 ```
 ---
 
+## 🚀 How to Use
+
+### 1. 🧪 Local Setup
+
+```bash
+git clone https://github.com/FaiazS/Digital-Research-Assistant.git
+cd digital-research-assistant
+pip install -r requirements.txt
+```
+
+> Setup a `.env` file:
+
+```
+OPENAI_API_KEY=your-openai-key
+SENDGRID_API_KEY=your-sendgrid-key
+```
+
+Then run:
+
+```bash
+python app.py
+```
+
+The UI will open in your browser!
+
 ## 💡 Sample Prompt
 
 > _"AI's contribution in tackling and mitigating the impacts of Climate Change."_
