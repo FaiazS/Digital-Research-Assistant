@@ -27,7 +27,7 @@ An end-to-end autonomous research system that takes a user query and delivers a 
 ```mermaid
 flowchart TD
     A[User submits research query] --> B[Research Planner Agent]
-    B --> C[Search Plan (3 search items)]
+    B --> C[Search Plan - 3 search items)]
     C --> D[Web Search Agent (x3)]
     D --> E[Search Summaries]
     E --> F[Research Writer Agent]
