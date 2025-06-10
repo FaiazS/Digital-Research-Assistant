@@ -24,6 +24,15 @@ An end-to-end autonomous research system that takes a user query and delivers a 
 
 ## 🧱 System Architecture
 
-
-<pre><code>```mermaid flowchart TD A[User submits research query] --> B[Research Planner Agent] B --> C[Search Plan (3 search items)] C --> D[Web Search Agent (x3)] D --> E[Search Summaries] E --> F[Research Writer Agent] F --> G[Markdown Report] G --> H[Email Agent] H --> I[Email Sent!] G --> J[Display in Gradio UI] ```</code></pre>
-
+```mermaid
+flowchart TD
+    A[User submits research query] --> B[Research Planner Agent]
+    B --> C[Search Plan (3 search items)]
+    C --> D[Web Search Agent (x3)]
+    D --> E[Search Summaries]
+    E --> F[Research Writer Agent]
+    F --> G[Markdown Report]
+    G --> H[Email Agent]
+    H --> I[Email Sent!]
+    G --> J[Display in Gradio UI]
+```
