@@ -36,8 +36,6 @@ flowchart TD
     H --> I[Email Sent!]
     G --> J[Display in Gradio UI]
 
----
-
 ```
 ## 🗂 Folder Structure
 
