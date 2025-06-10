@@ -85,47 +85,19 @@ The UI will open in your browser!
 
 🔁 AI-Powered Research Pipeline: End-to-End Flow
 
-+----------------------------+
-|        Start Query         |
-| (User gives research topic)|
-+-------------+-------------+
-              |
-              v
-+-------------+-------------+
-| Research Planner Agent     |
-| - Breaks query into        |
-|   3 smart sub-queries      |
-+-------------+-------------+
-              |
-              v
-+-------------+-------------+
-| Research Assistant Agent   |
-| - Performs web searches    |
-|   for each sub-query       |
-| - Summarizes results       |
-+-------------+-------------+
-              |
-              v
-+-------------+-------------+
-| Research Writer Agent      |
-| - Plans report outline     |
-| - Writes full markdown     |
-|   report (5-7 pages)       |
-+-------------+-------------+
-              |
-              v
-+-------------+-------------+
-| Email Agent (SendGrid)     |
-| - Formats report to HTML   |
-| - Sends final email        |
-+-------------+-------------+
-              |
-              v
-+-------------+-------------+
-|         🎉 DONE!            |
-| Report emailed successfully|
-+----------------------------+
-
+User types a query in the Gradio UI
+        ↓
+ResearchManager is called → begins the pipeline
+        ↓
+research_planner agent → breaks query into 3 search terms
+        ↓
+web_searcher agent → performs web search for each term and summarizes them
+        ↓
+research_writer agent → creates structured outline + full report from the summaries
+        ↓
+email_agent → formats the report in HTML and emails it
+        ↓
+Final markdown report displayed in Gradio UI and emailed!
 ---
 
 ## 🧠 Built With
